@@ -2,6 +2,7 @@
 
 Library-FE is a modern, fast, and lightweight React frontend for a library loan management system, built with React 19, Vite, and TailwindCSS 4.
 
+> Deployed on Railway: [https://library-fe-production.up.railway.app](https://library-fe-production.up.railway.app)
 ## Features
 
 - **SPA routing** with React Router DOM v7 — clean URLs and seamless navigation (`/`, `/books`, `/borrowers`, `/loans`)
@@ -49,3 +50,6 @@ npm run preview
 - React Hot Toast 
 - ESLint & Prettier for code quality
 
+---
+## Live Demo
+You can access the deployed frontend at: [https://library-fe-production.up.railway.app](https://library-fe-production.up.railway.app)
