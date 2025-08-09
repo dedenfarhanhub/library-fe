@@ -1,12 +1,51 @@
-# React + Vite
+# Library-FE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Library-FE is a modern, fast, and lightweight React frontend for a library loan management system, built with React 19, Vite, and TailwindCSS 4.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **SPA routing** with React Router DOM v7 — clean URLs and seamless navigation (`/`, `/books`, `/borrowers`, `/loans`)
+- **Fast dev experience** using Vite with hot module replacement
+- **TailwindCSS 4** for utility-first, responsive styling
+- **React Hot Toast** for elegant, non-blocking notifications
+- Modern React 19 with hooks and `createRoot` for optimal performance
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `/src/pages` — main page components
+- `/src/index.jsx` — app entry point, router setup, and toast provider
+- `/src/index.css` — global Tailwind styles
+- `/services` — API client and helpers
+
+## Setup & Usage
+
+1. Clone repo and install dependencies:
+
+```bash
+git clone https://github.com/dedenfarhanhub/library-fe.git
+cd library-fe
+npm install
+```
+2. Copy `.env.example` to `.env`
+3. Run development server:
+```bash
+npm run dev
+```
+4. Build for production:
+```bash
+npm run build
+```
+5. Preview production build locally:
+```bash
+npm run preview
+```
+---
+
+## Tech Stack
+- React 19 (hooks, functional components)
+- React Router DOM v7 
+- Vite (fast bundler and dev server)
+- TailwindCSS 4 
+- React Hot Toast 
+- ESLint & Prettier for code quality
+
